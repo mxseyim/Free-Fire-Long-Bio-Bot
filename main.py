@@ -14,7 +14,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv('8771725123:AAE_TMgiX3g8hm46P29Mo8dguK013ci_WxM', '')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '')
 API_KEY = os.getenv('API_KEY', '')
 API_BASE_URL = 'https://bio.ffutils.tech/api/update_bio'
 OWNER_USERNAME = '@md_siyam_1' # add your telegram username here. example: '@itzpaglu'
